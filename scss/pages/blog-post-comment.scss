@@ -1,0 +1,41 @@
+.comment {
+    --comment-base-indent: 1.5rem;
+
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1);
+    background-color: transparentize($mainYellow, 0.8);
+    padding: 1rem 2rem;
+    margin-bottom: 0.75rem;
+
+    &.reply {
+        background-color: transparentize($mainBlue, 0.8);
+    }
+
+    &.answer {
+        background-color: transparentize($mainColorDarken, 0.8);
+    }
+
+    .comment-author {
+        font-size: 1.1rem;
+    }
+
+    .comment-author-avatar {
+        
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .comment-content {
+        margin-top: 0.5rem;
+
+        // Mastodon dzieli linki, ukrywając części URL-a pod klasą "invisible"
+        .invisible {
+            visibility: visible!important;
+        }
+    }
+
+    .comment-reply-link {
+        cursor: pointer;
+    }
+}

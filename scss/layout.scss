@@ -1,0 +1,23 @@
+body {
+    color: $textColor;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.modal {
+
+    .modal-header {
+        background-color: $mainDarkBlue;
+        color: $backgroundColor;
+        
+        button {
+            color: $backgroundColor;
+        }
+    }
+
+    input.error {
+        border-color: $red;
+    }
+}

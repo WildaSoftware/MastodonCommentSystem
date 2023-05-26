@@ -1,0 +1,22 @@
+{
+	"pageTitle": "Wilda Software's Mastodon Comment System Example",
+
+	"enterMastodonDomain": "Your Mastodon instance",
+	"closeModal": "Close",
+	"confirmModal" : "Confirm",
+	"cancelModal" : "Cancel",
+	"provideMastodonInstance": "Provide a Mastodon instance domain, where you have an account. After confirming you will redirected to Mastodon in order to fill the post content.",
+	"provideMastodonInstanceShort": "Provide an instance domain (e.g. mastodon.social)",
+
+	"comments": "Comments",
+	"loadingComments": "Loading comments...",
+	"noComments": "No comments found",
+	"provideMastodonInstanceToReply": "<b>Warning: currently replying to comments is the experimental feature.</b><br/><br/>Provide a Mastodon instance domain, where you have an account. After confirming you will redirected to Mastodon in order to reply for this comment.",
+	"replyToThisCommentWithMastodon": "Reply for this comment in Mastodon (experimental feature)",
+	"postCommentFormHeader": "Reply to comment",
+	"postCommentFormMessage": "Content of the reply",
+	"postCommentFormSubmit": "Send",
+	"mastodonFailure": "Connection error with Mastodon",
+	"noMastodonConnectionDescription": "Currently there is no possible to connect with the selected Mastodon instance. Please try with an another instance, put a comment later or enter directly to the toot (by clicking the date) which you wanted to reply to.",
+	"ok": "OK"
+}
